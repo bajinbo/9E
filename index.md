@@ -1,37 +1,80 @@
-## Welcome to GitHub Pages
+<style>
 
-You can use the [editor on GitHub](https://github.com/ronas1/9E/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+ 
+{ 
+	font-family: monaco,Consolas,Lucida Console,monospace; 
+}
+ 
+ 
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  
+#menu li {
+    list-style-type: none;
+    float: left;
+    border-right: 1px solid #bbb;
+}  
+  
+  
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-### Markdown
+#menu li a:hover {
+  background-color: #111;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#menu li {
+  border-right: 1px solid #bbb;
+}
 
-```markdown
-Syntax highlighted code block
+#menu li:last-child {
+  border-right: none;
+}  
+  
+div.menu-ul li {
+    list-style:none;
+    background-image:none;
+    background-repeat:none;
+    background-position:0;
+  
+.active {
+  background-color: #363636;
+  color: white;
+}
+  
+</style>
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+<html>
+<body>
 
-1. Numbered
-2. List
+<center><h1>MY CLASS</h1></center>
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ronas1/9E/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<h3>
+  <div class="menu-ul">
+<ul id="menu">
+<li><a class="active"  href="index.html">Pagina Inicial</a></li>
+<li><a href="guys.html">Guys</a></li>
+<li><a href="bitches1.html">Girls</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="honras.html">Honras</a></li>
+</ul>
+  </div>
+</h3>
+	
+	<center>lol</center>
+	
+</body>
+<html>
